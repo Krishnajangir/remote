@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/remote-wc",
+    "types": []
+  },
+  "files": ["compile.ts", "../../src/polyfills.ts"],
+  "include": ["src/**/*.d.ts"]
+}
